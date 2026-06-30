@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+    <hr>
+
+    <form action="welcome.html" method="get">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label>Name - </label>
+            <input type="text" placeholder="Enter your name">
+            <br><br>
+
+            <label>Password - </label>
+            <input type="password" placeholder="Enter password">
+            <br><br>
+
+            <label>Email - </label>
+            <input type="email" placeholder="Enter email">
+            <br><br>
+
+            <label>Number - </label>
+            <input type="number" placeholder="Enter number">
+            <br><br>
+
+            <label>Date - </label>
+            <input type="date">
+            <br><br>
+
+            <label>Gender - </label>
+            <input type="radio" name="gen"> Male
+            <input type="radio" name="gen"> Female
+            <input type="radio" name="gen"> Other
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Subjects</legend>
+
+            <input type="checkbox" checked> Python
+            <input type="checkbox"> Java
+            <input type="checkbox"> C++
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend>Domain</legend>
+           <Select> 
+            <option value="">AI & ML </option>
+            <option value="">Data Science </option>
+            <option value="">Web Devolopment </option>
+            <option value="">E&TC </option>
+           </select>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Feedback</legend>
+
+            <textarea rows="4" cols="50" placeholder="Give your feedback"></textarea>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Grade Table </legend>
+
+            <table border="2">
+                <tr>
+                    <th>Percentage</th>
+                    <th>Grade</th>
+                </tr>
+                <tr>
+                    <td>100-75</td>
+                    <td>Grade-A</td>
+                </tr>
+                <tr>
+                    <td>75-45</td>
+                    <td>Grade-B</td>
+                </tr>
+                <tr>
+                    <td>45-35</td>
+                    <td>Grade-C</td>
+                </tr>
+                <tr>
+                    <td>marks<35</td>
+                    <td>Failed</td>
+                </tr>
+            </table>
+
+            Enter Your Grade:<input type="text">
+            <br>
+            <br>
+        </fieldset>
+
+        <br>
+
+        <button type="submit">submit</button>
+        <input type="reset" value="Reset">
+        
+
+    </form>
+
+</body>
+</html>
+
